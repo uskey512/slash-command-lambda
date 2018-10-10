@@ -10,7 +10,7 @@ COMMAND = os.getenv("COMMAND")
 TEXT = os.getenv("TEXT")
 
 
-def main():
+def lambda_handler(event, context):
     from requests.sessions import Session
     with Session() as session:
         slack = Slacker(API_TOKEN, session=session)
