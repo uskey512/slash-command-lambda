@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 requests = "*"
 slacker = "*"
-yapf = "*"
 
 [dev-packages]
 
