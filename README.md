@@ -19,3 +19,9 @@ Execute Slack's slash command from AWS Lambda.
 
 ### Result
 <img width="521" alt="result" src="https://user-images.githubusercontent.com/4005383/46964817-11874a00-d0e4-11e8-9178-cdb9e857574d.png">
+
+## Custom build
+- add package
+  - `pip install <<package>> -t .`
+- build zip
+  - `zip -r <<filename>> *`
