@@ -9,7 +9,7 @@ Execute Slack's slash command from AWS Lambda.
   - set handler `slack_slash_command.lambda_handler`
 - set Environment variables
    - `API_TOKEN`
-      - your legacy token (https://api.slack.com/custom-integrations/legacy-tokens)
+      - https://api.slack.com/custom-integrations/legacy-tokens
    - `CHANNEL`
       - This should be an ID, such as `C8UJ12P4P`.
    - `COMMAND`
