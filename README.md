@@ -25,3 +25,9 @@ Execute Slack's slash command from AWS Lambda.
   - `pip install <<package>> -t .`
 - build zip
   - `zip -r <<filename>> *`
+  
+## Author
+Yusuke Uehara (@uskey512)
+
+## License
+MIT
